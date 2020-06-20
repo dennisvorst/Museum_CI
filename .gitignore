@@ -1,0 +1,5 @@
+/* ignore the vendor folder */
+vendor
+/* ignore all batch files */
+*.bat
+
