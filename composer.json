@@ -1,4 +1,7 @@
 {
+    "name": "vorstd/honkbalmuseum",
+    "description" : "The Dutch base- and softballmuseum news clipping website.",
+    "license" : "proprietary",
     "autoload": {
             "classmap": ["src/"],
     	"psr-0": { "\\": "src/class/" } 
