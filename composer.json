@@ -10,6 +10,6 @@
         "phpunit/phpunit": "^9.2.3"
     },
     "scripts": {
-        "test": "phpunit"
+        "test": "phpunit --colors=always --bootstrap ./vendor/autoload.php ./tests/Unit"
     }
 }
