@@ -11,5 +11,9 @@
     },
     "scripts": {
         "test": "phpunit --colors=always --bootstrap ./vendor/autoload.php ./tests/Unit"
+    },
+    "require": {
+        "twbs/bootstrap": "4.5.0",
+        "fortawesome/font-awesome": "5.13.1"
     }
 }
