@@ -1,5 +1,10 @@
-<?php 
+<?php
+ini_set('error_reporting', E_ALL);
+ini_set('display_errors', 'On');  //On or Off
+
+
 require_once ".\class\ButtonToolBar.php";
+require_once ".\class\ParameterController.php";
 ?>
 <!doctype html>
 <html lang="en">
@@ -26,6 +31,9 @@ require_once ".\class\ButtonToolBar.php";
     </div>
 
     <?php
+    $pc = new ParameterController(["a" => "orange", "b" => "banana", "c" => "apple"]);
+    echo $pc->getHyperlink();
+
     $tb = new ButtonToolBar(["A", "B", "C"], "C");
     echo $tb->show();
 
